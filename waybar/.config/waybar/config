@@ -1,0 +1,70 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["tray", "network", "pulseaudio", "cpu", "memory", "battery", "clock"],
+    "sway/workspaces": {
+        "format": "{icon} ",
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "0"
+        },
+        "all-workspaces": true
+    },
+    "sway/window": {
+        "max-length": 50
+    },
+    "tray": {
+        "icon-size": 18,
+        "spacing": 10,
+        "show-passive-items": true,
+        "on-click-right": "nm-applet"
+    },
+    "network": {
+        "format": "{icon}",
+        "format-alt": "{icon}",
+        "format-wifi": "󰤩 {essid}",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤭",
+        "tooltip-format": "{ipaddr}",
+        "tooltip-format-alt": "{ipaddr}",
+        "on-click-right": "nm-applet"
+    },
+    "pulseaudio": {
+        "format": "Vol {volume}%",
+        "format-muted": "Vol --",
+        "on-click": "pavucontrol"
+    },
+    "cpu": {
+        "format": " \uf0e4 {usage}%"
+    },
+    "memory": {
+        "format": " \uf2db {used}%"
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "format-alt": "{:%Y-%m-%d %H:%M}"
+    },
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-icons": ["", "", "", "", ""],
+        "format-charging": "⚡ {capacity}%"
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    }
+}
