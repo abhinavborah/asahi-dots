@@ -9,7 +9,7 @@ how to replicate the setup:
 ```sh
 git clone https://github.com/abhinavborah/asahi-dots ~/dots
 cd ~/dots
-stow -n -v */    # dry run
+stow -n -v */
 stow */
 ```
 
