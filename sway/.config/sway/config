@@ -62,7 +62,10 @@ input type:touchpad {
 exec_always sh -c 'pkill -x waybar; exec waybar'
 exec_always nm-applet
 
-# Screen brightness             
+# Screenshot
+bindsym $mod+Shift+s exec ~/.local/bin/screenshot
+
+# Screen brightness            
 bindsym f1 exec brightnessctl set 5%-
 bindsym f2 exec brightnessctl set 5%+
 
