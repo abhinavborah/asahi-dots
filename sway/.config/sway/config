@@ -59,7 +59,7 @@ input type:touchpad {
     dwt enabled
 }
 
-exec_always killall waybar; waybar
+exec_always sh -c 'pkill -x waybar; exec waybar'
 exec_always nm-applet
 
 # Screen brightness             
