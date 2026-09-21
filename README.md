@@ -16,5 +16,5 @@ stow */
 packages required:
 
 ```
-stow sway waybar rofi grim slurp wl-clipboard libnotify network-manager-applet brightnessctl
+stow sway waybar rofi grim slurp wl-clipboard libnotify network-manager-applet brightnessctl rofi
 ```
