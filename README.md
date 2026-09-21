@@ -12,3 +12,9 @@ cd ~/dots
 stow -n -v */    # dry run
 stow */
 ```
+
+packages required:
+
+```sh
+sudo dnf install stow sway waybar rofi grim slurp wl-clipboard libnotify network-manager-applet brightnessctl
+```
