@@ -54,7 +54,7 @@ input type:keyboard {
 }
 
 input type:touchpad {
-    tap enabled
+    tap disabled
     natural_scroll enabled
     dwt enabled
 }
